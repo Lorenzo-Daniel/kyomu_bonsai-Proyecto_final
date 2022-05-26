@@ -1,0 +1,38 @@
+@import url('http://fonts.cdnfonts.com/css/mager');
+@import url('http://fonts.cdnfonts.com/css/dekiru');
+@import url('http://fonts.cdnfonts.com/css/nrt-reg');
+@import url('http://fonts.cdnfonts.com/css/adam');
+@import "_variables";
+@import "_nav";
+@import "_inicio";
+@import "_footer";
+@import "_slider-nosotros";
+@import "_nosotros";
+@import "_button";
+@import "_escuela";
+@import "_tienda";
+@import "_contacto";
+@import "_slider-escuela";
+@import "_utilidades";
+@import "_mixins";
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Abel', sans-serif;
+    font-weight: lighter;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $color4;
+    border: 1px solid rgba(172, 164, 154, 0.284);
+    user-select: none;
+}
+main {
+    margin-top: 100px;
+}
+p{
+    font-weight: bold;
+}

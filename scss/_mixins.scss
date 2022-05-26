@@ -1,0 +1,45 @@
+@mixin arrow-animation ($animation-name, $translate-0, $translate-50, $translate-75, $translate-100) {
+    i {
+        font-size: 25px;
+        color: $color1;
+
+        &:hover {
+            animation: $animation-name 2s ease 1;
+
+            @keyframes #{$animation-name} {
+                0% {
+                    transform: $translate-0;
+                }
+
+                50% {
+                    transform: $translate-50;
+                }
+
+                75% {
+                    transform: $translate-75;
+                }
+
+                100% {
+                    transform: $translate-100;
+                }
+            }
+
+        }
+    }
+}
+
+.arrow-left {
+    @include arrow-animation(arrow-left, translateX(0px), translateX(-20px), translateX(-20px), translateX(0px));
+}
+
+.arrow-right {
+    @include arrow-animation(arrow-right, translateX(0px), translateX(20px), translateX(20px), translateX(0px));
+}
+
+.arrow-up {
+    @include arrow-animation(arrow-up, translateY(0px), translateY(-20px), translateY(-20px), translateY(0px));
+}
+
+.arrow-down {
+    @include arrow-animation(arrow-down, translateY(0px), translateY(20px), translateY(20px), translateY(0px));
+}

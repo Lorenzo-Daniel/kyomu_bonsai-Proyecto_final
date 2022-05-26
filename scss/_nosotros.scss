@@ -1,0 +1,13 @@
+.line {
+        height: 2px;
+        background-color: $color1;
+        align-self: center;
+}
+
+.contenedor-nosotros {
+        overflow: hidden;
+
+        .box-upline-icon {
+                align-self: center;
+        }
+}

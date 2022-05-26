@@ -1,0 +1,57 @@
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+
+    .navbar {
+        background-color: $color3;
+        margin: -1px;
+        padding: 20px;
+
+        .dropdown-item {
+            align-self: start;
+            width: 180px;
+            color: $color4;
+            background-color: $color3;
+        }
+
+        .dropdown-menu {
+            background-color: $color3;
+
+            li {
+                .dropdown-item {
+                    &:active {
+                        background-color: $color2;
+
+                    }
+                }
+            }
+        }
+
+    }
+
+    p {
+        margin: 0;
+    }
+}
+
+.logo {
+    :first-child {
+        font-family: $kyomu;
+        font-size: 2.5rem;
+        font-weight: 100;
+        color: $color1;
+
+        span {
+            font-family: $kyomu;
+            font-size: 2.5rem;
+            font-weight: 100;
+            color: $color4;
+            margin-left: -5%;
+        }
+    }
+
+    a {
+        text-decoration: none;
+    }
+}

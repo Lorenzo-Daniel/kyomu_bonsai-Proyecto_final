@@ -1,0 +1,74 @@
+.CyT_titulo {
+    background-color: $color2;
+    color: $color1;
+}
+
+.sec_central_escuela_parrafo {
+    .line {
+        width: 50%;
+    }
+    hr {
+        height: 5px;
+        color: $color5;
+        opacity: 0.9;
+    }
+}
+
+.portada_escuela {
+    .kyomu-logo-text {
+        font-size: 50px;
+
+        @media (min-width:320px) {
+            font-size: 25px;
+        }
+
+        @media (min-width:576px) {
+            font-size: 35px;
+        }
+
+        @media (min-width:768px) {
+            font-size: 50px;
+        }
+    }
+
+    img {
+        width: 45%;
+        margin-bottom: -1%;
+    }
+}
+
+.nav-cursos {
+    a {
+        &:hover {
+            color: $color1;
+        }
+    }
+}
+
+.up-foot {
+    hr {
+        margin: 10px;
+        height: 1px;
+        color:$color1;
+        opacity: 0.9;
+     
+    }
+
+    p {
+        margin: 0;
+        font-weight: bold;
+
+        a {
+            color: $color1;
+            text-decoration: none;
+        }
+
+    }
+    i{
+        color: $color1;
+        &:hover {
+            transform: scale(1.15);
+            transition: 0.5s ease-in-out;
+        }
+    }
+}

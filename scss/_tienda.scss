@@ -1,0 +1,99 @@
+.tienda-header {
+    .kyomu-logo-text {
+        font-size: 50px;
+    }
+
+    h2 {
+        color: $color1;
+    }
+}
+
+@media (min-width:320px) {
+    .contenedor-tienda {
+        overflow: hidden;
+
+        .contenedor-tienda__card {
+            width: 100%;
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 5px;
+            justify-content: space-between;
+            border: 1px solid $color3;
+            border-radius: 10px;
+
+            .contenedor-tienda__card-p {
+                height: 205px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                padding: 15px;
+                background-color: $color2;
+                border-radius: 10px;
+                margin-top: 5px;
+                color: white;
+
+                .button-green {
+                    align-self: flex-end;
+                }
+
+                .line {
+                    background-color: $color4;
+                    margin-top: 10px;
+                    margin-bottom: 13px;
+                    width: 20%;
+                    align-self: flex-start;
+                }
+            }
+
+            .contenedor-tienda__card-img-h2 {
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                border: 1px solid $color3;
+                border-radius: 10px;
+                background-color: $color2;
+
+                .contenedor-tienda__card-img-h2-content {
+                    height: auto;
+                    width: 250px;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+
+                    h2 {
+                        font-family: $kyomu;
+                        color: $color1;
+                    }
+
+                    img {
+                        margin-bottom: 10px;
+                        width: 70%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (min-width:576px) {
+    .contenedor-tienda {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+
+        .contenedor-tienda__card {
+            width: 45%;
+        }
+
+        @media (min-width:768px) {
+            .contenedor-tienda__card {
+                width: 30%;
+            }
+        }
+    }
+}

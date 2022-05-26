@@ -1,0 +1,19 @@
+$color1 : #52633b;
+$color2 : #aca49a;
+$color3 : #908b83;
+$color4 : #ebebeb;
+$color5 : #52633bab;
+$kyomu:'Architects Daughter',cursive;
+$card-cursos-slide : (
+    displey:flex,
+    direccion:column,
+    justificado:space-evenly,
+    alineado:center,
+    ancho:100%,
+    alto:100%,
+    colorr:$color4,
+    paddingg:10%,
+    alineado-texto:center,
+);
+
+
