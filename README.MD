@@ -12,7 +12,7 @@
         Deploy
     </h2>
     <p>
-        visualizá el proyecto <a href="">aquí</a>
+        visualizá el proyecto <a href="https://lorenzo-daniel.github.io/kyomu_bonsai-Proyecto_final/">aquí</a>
     </p>
     <h2>
         Objetivo
